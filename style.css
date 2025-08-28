@@ -1,0 +1,17 @@
+.logotipo{
+    height: 400px;
+    padding: 30px;
+}
+main{
+    background-color:gray;
+    height:200px;
+    color:black;
+}
+header{
+    height: 770px;
+    background-color: rgb(185, 189, 190);
+}
+
+.foto{
+    height: 50px;
+}

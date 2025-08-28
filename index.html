@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <script src="script.js"></script>
+    <header>
+        <img class="logotipo" src="imagens/logo.jpg" alt="logotipo">
+
+    
+
+    <h1>Monte sua Hospedagem!</h1>
+
+        <form>
+
+        <label for="nome_cliente">Nome:
+            <input type="text" name="nome_cliente" id="nome_cliente" placeholder="Nome">
+        </label>
+
+        <br>
+
+        <label for="tempo_hospedagem">Tempo de hospedagem:
+            <input type="text" name="tempo_hospedes" id="tempo_hospedes" placeholder="Tempo">
+        </label>
+
+        <br>
+
+        <label for="numero_hospedes">Hospedes:
+            <select name="numero_hospedes" id="numero_hospedes"></select>
+        </label>
+
+        <br>
+
+
+        <label for="quartos">quartos:
+            <select name="quartos" id="quartos"></select>
+        </label>
+
+        <br>
+
+
+        <label for="refeicao">refeições:
+            <select name="refeicao" id="refeicao"></select>
+        </label>
+
+        <br>
+        
+
+        <button type="button"  >gera relatório final</button>
+        <p id="resultado" ></p>
+
+</form>
+
+
+</body>
+</html>
